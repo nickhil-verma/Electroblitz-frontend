@@ -40,7 +40,7 @@ const Notification = () => {
       {/* Floating Notification Button */}
       <button 
         onClick={togglePopup} 
-        className="fixed bottom-6 right-6 bg-[#15F5BA] text-white p-3 rounded-full shadow-lg hover:bg-[#836FFF] focus:outline-none"
+        className="fixed bottom-6 animate-bounce right-6 bg-[#15F5BA] text-white p-3 rounded-full shadow-lg hover:bg-[#836FFF] focus:outline-none"
       >
         <FaBell size={24} />
         {/* Notification Badge */}
