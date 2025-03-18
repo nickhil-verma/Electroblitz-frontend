@@ -1,21 +1,30 @@
 import React from "react";
+import IMG1 from "../assets/Gall1.jpg"
+import IMG2 from "../assets/GALL2.jpg"
+import IMG3 from "../assets/GAll3.jpg"
+import IMG4 from "../assets/Gall4.jpg"
+import IMG5 from "../assets/Gall5.jpg"
+import IMG6 from "../assets/Gall6.jpg"
+import IMG7 from "../assets/GAll7.jpg"
+import IMG8 from "../assets/Gall8.jpeg"
+import IMG9 from "../assets/Gall9.jpg"
 import { GoArrowRight } from "react-icons/go"; // For the arrow icon
 
 const Gallery = () => {
   const images = [
-    "https://via.placeholder.com/150",
-    "https://via.placeholder.com/150",
-    "https://via.placeholder.com/150",
-    "https://via.placeholder.com/150",
-    "https://via.placeholder.com/150",
-    "https://via.placeholder.com/150",
-    "https://via.placeholder.com/150",
-    "https://via.placeholder.com/150",
-    "https://via.placeholder.com/150",
+    IMG1,
+    IMG2,
+    IMG3,
+    IMG4,
+    IMG5,
+    IMG6,
+    IMG7,
+    IMG8,
+    IMG9,
   ];
 
   return (
-    <div className="py-16 px-4 sm:px-6 lg:px-8 z-20 relative">
+    <div id="gallery" className="py-16 px-4 sm:px-6 lg:px-8 z-20 relative">
       {" "}
       {/* Added z-20 and relative positioning */}
       <div className="max-w-7xl mx-auto">

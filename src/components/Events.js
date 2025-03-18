@@ -1,5 +1,12 @@
 import React from 'react';
 import ROBSOC from "../assets/Robsoc.jpg"
+import EVIMG2 from "../assets/event2.jpg"
+import EVIMG3 from "../assets/event3.jpg"
+import EVIMG4 from "../assets/event4.jpg"
+import EVIMG5 from "../assets/event5.jpg"
+import EVIMG6 from "../assets/event6.jpg"
+
+
 const Event = () => {
   const dummyEvents = [
     {
@@ -12,36 +19,37 @@ const Event = () => {
       id: 2,
       title: "ROBOWARS",
       description: "The participants took part in the competition as a group of 4 ,there were 17 teams in total..So a total of 68 individual participants. We started the competition by 10:00AM.",
-      imageUrl: "https://via.placeholder.com/400",
+      imageUrl: EVIMG6,
     },
     {
       id: 3,
-      title: "TechnoBuzz 24",
-      description: " ",
-      imageUrl: "https://via.placeholder.com/400",
+      title: "PCB desgining ",
+      description: "printed circuit board desgining using ki cad computer application workshop ",
+      imageUrl: EVIMG3,
     },
     {
-      id: 4,
-      title: "SOLDERING COMPETITION",
-      description: "An intensive bootcamp to learn data science with hands-on projects.",
-      imageUrl: "https://via.placeholder.com/400",
-    },
-    {
-      id: 5,
-      title: "Web Development Workshop",
-      description: "A workshop focusing on modern web technologies and development tools.",
-      imageUrl: "https://via.placeholder.com/400",
-    },
-    {
-      id: 6,
-      title: "Cybersecurity Essentials",
-      description: "Learn about cybersecurity principles and how to secure your systems.",
-      imageUrl: "https://via.placeholder.com/400",
-    },
+        id: 4,
+        title: "SOLDERING COMPETITION",
+        description: "Test your precision and speed in this hands-on soldering challenge. Compete against others to create flawless circuit connections.",
+        imageUrl: EVIMG2,
+      },
+      {
+        id: 5,
+        title: "System and Antenna Design using MATLAB",
+        description: "Gain practical experience in designing and simulating antenna and communication systems using MATLAB for real-world applications.",
+        imageUrl: EVIMG4,
+      },
+      {
+        id: 6,
+        title: "Building Practical Circuit Board",
+        description: "Learn to design, assemble, and test functional circuit boards. A hands-on experience in electronics prototyping and PCB development.",
+        imageUrl: EVIMG5,
+      },
+      
   ];
 
   return (
-    <div className="bg-transparent py-16 px-4 z-20 sm:px-6 lg:px-8 relative">
+    <div id='Events' className="bg-transparent py-16 px-4 z-20 sm:px-6 lg:px-8 relative">
       <div className="max-w-7xl mx-auto">
         {/* Heading */}
         <h1 className="text-4xl font-bold text-[#15F5BA] mb-8 text-center">Events</h1>

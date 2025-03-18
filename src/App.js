@@ -6,6 +6,7 @@ import Hero from './components/Hero';
 import Event from './components/Events';
 import Notification from './components/Notifications';
 import Gallery from "./components/Gallery";
+import Home from "./components/Home";
 
 function App() {
   return (
@@ -26,10 +27,12 @@ function App() {
       </div>
 
       <Navbar />
-      <Hero />
+      {/* <Hero />
       <Event />
       <Gallery />
-      <Footer />
+      <Footer /> */}
+
+      <Home/>
       <Notification />
     </>
   );

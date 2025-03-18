@@ -27,8 +27,8 @@ const Navbar = () => {
         <div className="hidden lg:flex absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 px-4 py-1   bg-black bg-opacity-10 backdrop-blur-sm rounded-full border-[1px] border-[#15F5BA] hover:border-[#836FFF] transition-all">
           <div className="flex items-center justify-center space-x-6">
             <a href="#" className="text-white  hover:text-[#15F5BA]">Home</a>
-            <a href="#" className="text-white hover:text-[#15F5BA]">Events</a>
-            <a href="#" className="text-white hover:text-[#15F5BA]">Gallery</a>
+            <a href="#Events" className="text-white hover:text-[#15F5BA]">Events</a>
+            <a href="#gallery" className="text-white hover:text-[#15F5BA]">Gallery</a>
             <a href="#" className="text-white hover:text-[#15F5BA]">About</a>
             <button className="bg-transparent text-white  px-2 py-1 rounded-3xl hover:bg-[#836FFF]">
               Contact
@@ -57,8 +57,8 @@ const Navbar = () => {
           className={`lg:hidden ${isOpen ? 'block' : 'hidden'} absolute top-16 left-0 w-full bg-[#211951] text-[#F0F3FF] p-6`}
         >
           <a href="#" className="block py-2 px-4 text-white hover:text-[#15F5BA]">Home</a>
-          <a href="#" className="block py-2 px-4 text-white hover:text-[#15F5BA]">Events</a>
-          <a href="#" className="block py-2 px-4 text-white hover:text-[#15F5BA]">Gallery</a>
+          <a href="#Events" className="block py-2 px-4 text-white hover:text-[#15F5BA]">Events</a>
+          <a href="#gallery" className="block py-2 px-4 text-white hover:text-[#15F5BA]">Gallery</a>
           <a href="#" className="block py-2 px-4 text-white hover:text-[#15F5BA]">About</a>
           <button className="w-full mt-4 bg-[#15F5BA] text-[#211951] px-4 py-2 rounded-lg hover:bg-[#836FFF]">
             Admin

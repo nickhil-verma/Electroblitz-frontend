@@ -35,12 +35,12 @@ const Footer = () => {
               />
             </div>
             <div className="flex flex-col">
-              <label htmlFor="subject" className="text-lg">Subject</label>
+              <label htmlFor="Email" className="text-lg">Email</label>
               <input
-                type="text"
+                type="email"
                 id="subject"
                 className="px-4 py-2 bg-transparent border border-white text-white rounded-md focus:outline-none focus:ring-2 focus:ring-[#15F5BA] placeholder-white"
-                placeholder="Enter the subject"
+                placeholder="Enter your email"
               />
             </div>
             <div className="flex flex-col">
