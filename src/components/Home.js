@@ -3,6 +3,7 @@ import Hero from './Hero'
 import Event from './Events'
 import Footer from './Footer'
 import Gallery from './Gallery'
+import LandingPopup from './LandingPopup'
 const Home = () => {
   return (
    <>
@@ -10,6 +11,7 @@ const Home = () => {
             <Event/>
             <Gallery/>
             <Footer/>
+            <LandingPopup/>
    
    </>
   )

@@ -21,9 +21,21 @@ const Hero = () => {
       {/* Marquee Section at the Bottom */}
       <div className="absolute bottom-0 w-full bg-[#15F5BA] bg-opacity-90 py-2">
         <div className="text-center text-[#F0F3FF] text-lg">
-          <marquee fast className="text-xl">
-            Hurry Up! Join us on Rosoccer event 2025 organised by Electroblitz X Techflix @DSU, Harohalli Main Campus
-          </marquee>
+        <div className="w-full overflow-hidden bg-[#211951] py-2">
+  <div className="whitespace-nowrap animate-scroll text-xl font-semibold text-white">
+    Hurry Up! Join us on RoboDuel Championship 2025 organised by Electroblitz X Techflix @DSU, Harohalli Main Campus — 
+    <a
+      href="https://unstop.com/p/roboduel-championship-electroblitz-1429669?lb=bNbvr3U8"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-[#15F5BA] underline hover:text-[#836FFF] ml-2"
+    >
+      Register Now
+    </a>
+  </div>
+</div>
+
+
         </div>
       </div>
     </div>

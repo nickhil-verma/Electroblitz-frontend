@@ -56,11 +56,11 @@ const Navbar = () => {
         <div
           className={`lg:hidden ${isOpen ? 'block' : 'hidden'} absolute top-16 left-0 w-full bg-[#211951] text-[#F0F3FF] p-6`}
         >
-          <a href="#" className="block py-2 px-4 text-white hover:text-[#15F5BA]">Home</a>
-          <a href="#Events" className="block py-2 px-4 text-white hover:text-[#15F5BA]">Events</a>
-          <a href="#gallery" className="block py-2 px-4 text-white hover:text-[#15F5BA]">Gallery</a>
-          <a href="#" className="block py-2 px-4 text-white hover:text-[#15F5BA]">About</a>
-          <button className="w-full mt-4 bg-[#15F5BA] text-[#211951] px-4 py-2 rounded-lg hover:bg-[#836FFF]">
+            <a href="#" className="block py-2 px-4 text-white hover:text-[#15F5BA]">Home</a>
+            <a href="#Events" className="block py-2 px-4 text-white hover:text-[#15F5BA]">Events</a>
+            <a href="#gallery" className="block py-2 px-4 text-white hover:text-[#15F5BA]">Gallery</a>
+            <a href="#" className="block py-2 px-4 text-white hover:text-[#15F5BA]">About</a>
+            <button className="w-full mt-4 bg-[#15F5BA] text-[#211951] px-4 py-2 rounded-lg hover:bg-[#836FFF]">
             Admin
           </button>
         </div>

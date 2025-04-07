@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VEVENT
+DTSTART:20250325T043000Z
+DTEND:20250325T143000Z
+DTSTAMP:20250318T163441Z
+ORGANIZER;CN="Superteam":MAILTO:calendar-invite@lu.ma
+UID:evt-wYA48NCcJO3QFnT@events.lu.ma
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=verman
+ ick75@gmail.com;X-NUM-GUESTS=0:mailto:vermanick75@gmail.com
+SUMMARY:Solana Summit: DePIN & Hardware Edition, Bengaluru
+DESCRIPTION:Get up-to-date information at: https://lu.ma/solana-summit-blr\
+ n\nAddress:\nMLR Convention Centre\nBengaluru, Karnataka\nIndia\n\nsome imp
+ ortant notes as we approach the summit:\nLocation: The summit is at MLR, Wh
+ itefield (see Luma link). Be sure to come to the correct MLR centre, as the
+ re's another one in the city.\nAgenda: We have a day packed with 10 minute 
+ product keynotes, a DePIN debate, hands on workshops, and we close out the 
+ evening with a stand-up act by Biswa. Full agenda here.\nDemo Day: Select t
+ eams will be invited to present on stage at the demo day to a panel of VCs,
+  founders and DePIN projects. There's $5K in cash prizes & a member role in
+  Superteam India on the line. Apply here.\nDoors open at 10 AM, with…\n\nHo
+ sted by Superteam India & 3 others
+LOCATION:MLR Convention Centre, 4th Cross Rd, Kaveri Nagar, Whitefield, Ben
+ galuru, Karnataka 560048, India
+GEO:12.999087;77.702023
+SEQUENCE:0
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR
