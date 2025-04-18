@@ -19,7 +19,7 @@ const Littlepopup = () => {
 
       {/* Heading */}
       <h2 className="text-lg font-semibold text-center text-[#15F5BA] mt-6">
-        ROBODUEL 2025 <br /> <span className='text-red-500 animate-pulse'>Registration is Live</span>
+        ROBODUEL 2025 <br /> <span className='text-red-500 animate-pulse'>Registration is Closed</span>
       </h2>
 
       {/* QR Code */}

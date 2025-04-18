@@ -59,7 +59,7 @@ const Event = () => {
             <div key={event.id} className=" border-[#15F5BA] border-[0.5px] bg-black bg-opacity-10 backdrop-blur-lg hover:scale-105  dark:bg-lessdark p-4 rounded-lg shadow-lg transition-colors duration-1000">
               {/* Image Thumbnail */}
               <div className="relative w-full h-48 mb-4 overflow-hidden rounded-lg">
-                <img src={event.imageUrl} alt={event.title} className="w-full h-full object-cover" />
+                <img src={event.imageUrl} alt={event.title} className="w-full h-full object-fill" />
               </div>
 
               {/* Event Description */}
